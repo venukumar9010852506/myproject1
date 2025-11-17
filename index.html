@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>My Website</title>
+        <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f5f9;
+        }
+        nav {
+            background-color: #333;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .a {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+            color: white;
+        }
+        .a h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .a p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+        }
+        .content-box {
+            max-width: 900px;
+            background: palegoldenrod;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav ul {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">My Website</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="to do list web app.html.html">Project</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ateam.html">Learning Group</a></li>
+        </ul>
+    </nav>
+
+    <div class="a">
+        <h1>Welcome to our Project Website</h1>
+        <p>This website shows our project work, what we learned, and how we completed everything in a simple and clear way.</p>
+    </div>
+    <div class="content-box">
+        <p>
+            This website is created to present our project in a clean and easy-to-understand manner.  
+            You can explore different sections like <b>Project</b>, <b>About</b>, and <b>Learning Group</b>.  
+            Each page explains our work, learning, and teamwork experience.
+        </p>
+        <p>
+            Everything is written in simple language, so it is easy for everyone to understand during the presentation.
+        </p>
+    </div>
+</body>
+</html>
